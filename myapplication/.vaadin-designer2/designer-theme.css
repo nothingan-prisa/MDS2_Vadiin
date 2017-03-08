@@ -12412,3 +12412,36 @@ div.v-layout.v-horizontal.v-widget {
 	width: 19px;
 	overflow: hidden;
 }
+
+.mytheme #Cabecera {
+	background-color: black;
+}
+
+.mytheme #Menu_Defecto {
+	background-color: black;
+}
+
+.mytheme #Menu_Iconos {
+	background-color: black;
+}
+
+.mytheme #Menu_Btn {
+	background-color: white;
+	border-radius: 4px;
+	padding: 1em;
+}
+
+.mytheme #Menu_Btn {
+	background-color: white;
+	border-radius: 4px;
+	padding: 1em;
+	position: relative;
+	z-index: 10;
+}
+
+.mytheme #Menu_Btn .v-button {
+	color: white;
+	background: black;
+	margin-left: 1em;
+	margin-right: 1em;
+}

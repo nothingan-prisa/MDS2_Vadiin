@@ -6,11 +6,39 @@
   <meta name="vaadin-version" content="8.0.0">
  </head>
  <body>
-  <vaadin-absolute-layout responsive width="915px" height="513px">
-   <vaadin-absolute-layout responsive width="915px" height="117px"></vaadin-absolute-layout>
-   <vaadin-absolute-layout responsive width="124px" height="396px" :top="117px"></vaadin-absolute-layout>
-   <vaadin-absolute-layout responsive width="124px" height="396px" :top="118px" :left="793px"></vaadin-absolute-layout>
-   <vaadin-panel style-name="Panel_Principal" responsive width="669px" height="400px" :top="119px" :left="124px"></vaadin-panel>
-  </vaadin-absolute-layout>
+  <vaadin-css-layout responsive width="1440px" height-full>
+   <vaadin-css-layout responsive id="Cabecera" width="1442px" height="187px">
+    <vaadin-absolute-layout responsive width="1436px" height="187px">
+     <vaadin-css-layout responsive id="Menu_Btn" width="738px" height="64px" :top="64px" :left="350px">
+      <vaadin-button icon="fonticon://Vaadin-Icons/e7ed" style-name="icon-only" responsive plain-text>
+        Button 
+      </vaadin-button>
+      <vaadin-button responsive plain-text>
+        Button 
+      </vaadin-button>
+      <vaadin-button responsive plain-text>
+        Button 
+      </vaadin-button>
+      <vaadin-button responsive plain-text>
+        Button 
+      </vaadin-button>
+      <vaadin-button responsive plain-text>
+        Button 
+      </vaadin-button>
+      <vaadin-button responsive plain-text>
+        Button 
+      </vaadin-button>
+     </vaadin-css-layout>
+     <vaadin-image source="C:/Users/juaniyo/git/MDS2_Vaadin/myapplication/src/main/webapp/VAADIN/img/fiber.png" responsive width="381px" height="187px"></vaadin-image>
+    </vaadin-absolute-layout>
+   </vaadin-css-layout>
+   <vaadin-css-layout responsive id="Menu_Defecto" width="176px" height="713px"></vaadin-css-layout>
+   <vaadin-css-layout style-name="icon-only" responsive width="1087px" height="713px">
+    <vaadin-button responsive plain-text>
+      Button 
+    </vaadin-button>
+   </vaadin-css-layout>
+   <vaadin-css-layout responsive id="Menu_Iconos" width="176px" height="713px"></vaadin-css-layout>
+  </vaadin-css-layout>
  </body>
 </html>
