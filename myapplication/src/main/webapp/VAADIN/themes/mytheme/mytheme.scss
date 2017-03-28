@@ -36,43 +36,79 @@
 
   // Insert your own theme rules here
   
-  #Cabecera {
-  	background-color: black;	
+ // CABECERA
+  #Horizontal_Head_Iluminati {
+  
+ 	background-color: black;
+ 		
+ }
+
+
+
+ // BARRA MENU NAV
+ 
+  #Barra_Menu {
+		
+	background-color: white;
+	border-radius: 15px;
+	padding: 0.5em;
+	
+	position: absolute;
+	
+	margin-top: 10%;
+	margin-left: auto;
+	margin-bootom: auto;
+	margin-right: auto;
+	
+	& .v-button {
+		background: black;
+		color: white;	
+		margin-left: 0.3em;
+		margin-right: 0.3em;
+	}
+
+			
   }
  
-  #Menu_Defecto {
-  	background-color: black;	
+ 
+ 
+ // BARRA MENU LATERAL
+ 
+   #Menu_Lateral {
+   	background-color: black;
+   	
+   	& .v-csslayout {
+   		background-color: #FF8000;
+   		border: none;	
+   		
+   	  	& .v-button {
+		  color: black;	
+		  
+			&:hoover {
+				background: #FE9A2E;	
+			}  
+			&:focus {
+	    		background-image: none;
+	    		background-color: #e9e9e9;
+			}
+	
+			&:active {
+	    		background-image: none;
+	    		background-color: #e9e9e9;
+			}
+	 	}
+	 
+	 	& .v-icon {
+	 		color: black;	
+	 	}
+   	 } 	
   }
- 
-   #Menu_Iconos {
-  	background-color: black;	
-  }
- 
-   #Menu_Btn {
-  	background-color: white;
-  	border-radius: 4px;	
-  	padding: 1em;
-  }
- 
-   #Menu_Btn {
-  	background-color: white;
-  	border-radius: 4px;	
-  	padding: 1em;
-  	position: relative;
-  	z-index: 10;
-  	
-  	& .v-button{
-  	 color: white;
- 	 background: black;
- 	 margin-left: 1em;
- 	 margin-right: 1em;
-  	}
-  }
+  
+   #Menu_Lateral2 {
+   	background-color: black;	
+   }
  
  
  
- 
- 
- 
- 
+ // FIN
  }

@@ -1,4 +1,7 @@
-public class CabeceraComun {
+package com.example.myapplication;
+
+public class CabeceraComun extends CabeceraComun_V {
+	/*
 	private Label _telefono;
 	private Button _inicio;
 	private Button _fijo;
@@ -11,4 +14,5 @@ public class CabeceraComun {
 	public Movil _unnamed_Movil_;
 	public Combis _unnamed_Combis_;
 	public TV _unnamed_TV_;
+	*/
 }
