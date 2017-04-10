@@ -9,6 +9,6 @@ public class ModificarContrato {
 	private Droplist _tVDL;
 	private Button _cancelar;
 	private Button _confirmar;
-	public misContratos _unnamed_misContratos_;
+	public MisContratos _unnamed_misContratos_;
 	public Confirmacion _unnamed_Confirmacion_;
 }
