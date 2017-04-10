@@ -12598,6 +12598,22 @@ div.v-layout.v-horizontal.v-widget {
 	background-color: black;
 }
 
+.mytheme #verticalTT .v-button {
+	background: orange !important;
+	color: black;
+	border: none;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+.mytheme #acceso {
+	background: orange !important;
+	color: black;
+	border: none;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
 .mytheme #Barra_Menu {
 	background-color: white;
 	border-radius: 15px;
