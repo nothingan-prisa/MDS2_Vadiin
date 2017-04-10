@@ -6,6 +6,6 @@ public class ZonaMenu__Cliente_ extends ZonaMenuComun {
 	public PerfilCliente _unnamed_PerfilCliente_;
 	public MisDatos _unnamed_misDatos_;
 	public misFacturas _unnamed_misFacturas_;
-	public misIncidencias _unnamed_misIncidencias_;
+	public MisIncidencias _unnamed_misIncidencias_;
 	public MisContratos _unnamed_misContratos_;
 }
