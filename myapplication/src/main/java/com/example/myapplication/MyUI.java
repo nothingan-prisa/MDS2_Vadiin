@@ -27,6 +27,7 @@ public class MyUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
         
       setContent(new AdminPrincipal());
+      setContent(new ZonaComun());
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
