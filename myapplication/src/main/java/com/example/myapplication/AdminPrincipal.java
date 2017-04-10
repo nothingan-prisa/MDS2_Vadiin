@@ -17,7 +17,6 @@ public class AdminPrincipal extends AdminPrincipal_V{
 	}
 	
 	private void inicializar() {
-		ZonaIconos zi = new ZonaIconos();
 		
 	}
 
