@@ -25,11 +25,12 @@ public class MyUI extends UI {
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         final VerticalLayout layout = new VerticalLayout();
-        
+
         ZonaComun zc = new ZonaComun();
         zc.zonaCibernauta();
         
       setContent(zc);
+
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
