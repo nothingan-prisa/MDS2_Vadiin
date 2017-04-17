@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.0.0">
+ </head>
+ <body>
+  <vaadin-vertical-layout size-full>
+   <vaadin-label width-full plain-text>
+     Nueva Incidencia 
+   </vaadin-label>
+   <vaadin-vertical-layout size-full :expand>
+    <vaadin-horizontal-layout>
+     <vaadin-label plain-text>
+       Tipo 
+     </vaadin-label>
+     <vaadin-combo-box data-item-type="java.lang.String">
+      <option item="Option1">Option 1</option>
+      <option item="Option2">Option 2</option>
+      <option item="Option3">Option 3</option>
+     </vaadin-combo-box>
+    </vaadin-horizontal-layout>
+    <vaadin-vertical-layout :expand>
+     <vaadin-label plain-text>
+       Descripcion 
+     </vaadin-label>
+     <vaadin-text-area></vaadin-text-area>
+    </vaadin-vertical-layout>
+    <vaadin-horizontal-layout width-full>
+     <vaadin-button plain-text :right>
+       Cancelar 
+     </vaadin-button>
+     <vaadin-button plain-text :right>
+       Guardar 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

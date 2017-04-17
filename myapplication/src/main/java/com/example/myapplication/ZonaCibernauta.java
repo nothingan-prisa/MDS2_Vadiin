@@ -1,3 +1,3 @@
 public class ZonaCibernauta extends ZonaComun {
-	public cibernauta _unnamed_cibernauta_;
+	public Cibernauta _unnamed_cibernauta_;
 }
