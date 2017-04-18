@@ -26,10 +26,9 @@ public class MyUI extends UI {
     protected void init(VaadinRequest vaadinRequest) {
         final VerticalLayout layout = new VerticalLayout();
 
-        ZonaComun zc = new ZonaComun();
-        zc.zonaCibernauta();
+        Cliente c = new Cliente();
         
-      setContent(zc);
+      setContent(c);
 
     }
 
