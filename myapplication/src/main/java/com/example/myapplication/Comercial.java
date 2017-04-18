@@ -1,6 +1,14 @@
 package com.example.myapplication;
 
-public class Comercial {
-//	public CabeceraComercial _unnamed_CabeceraComercial_;
-//	public ZonaComercial _unnamed_ZonaComercial_;
+public class Comercial extends ZonaComun {
+	
+	public Comercial() {
+		inicializar();
+	}
+
+	private void inicializar() {
+		
+		zonaComercial();
+		
+	}
 }
