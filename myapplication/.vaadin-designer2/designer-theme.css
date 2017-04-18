@@ -12606,12 +12606,8 @@ div.v-layout.v-horizontal.v-widget {
 	margin-right: 0.3em;
 }
 
-.mytheme #acceso {
-	background: orange !important;
-	color: black;
-	border: none;
-	margin-left: 0.3em;
-	margin-right: 0.3em;
+.mytheme #verticalTT .v-label {
+	color: orange;
 }
 
 .mytheme #Barra_Menu {

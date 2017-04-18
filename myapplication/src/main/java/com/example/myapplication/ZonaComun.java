@@ -16,14 +16,20 @@ public class ZonaComun extends ZonaComun_V {
 	
 	public void zonaAdmin() {
 		zmc.menuAdmin();
+		CabeceraLogueado cl = new CabeceraLogueado();
+		head_iluminati.addComponent(cl);
 	}
 	
 	public void zonaComercial() {
 		zmc.menuComercial();
+		CabeceraLogueado cl = new CabeceraLogueado();
+		head_iluminati.addComponent(cl);
 	}
 	
 	public void zonaCliente() {
 		zmc.menuCliente();
+		CabeceraLogueado cl = new CabeceraLogueado();
+		head_iluminati.addComponent(cl);
 	}
 	
 	public void zonaCibernauta() {

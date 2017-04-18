@@ -1,3 +1,13 @@
-public class CabeceraLogueado extends CabeceraComun {
-	private Button _cerrarSesion;
+package com.example.myapplication;
+
+public class CabeceraLogueado extends CabeceraLogueado_V {
+	
+	public CabeceraLogueado() {
+		inicializar();
+	}
+
+	private void inicializar() {
+	
+		
+	}
 }
