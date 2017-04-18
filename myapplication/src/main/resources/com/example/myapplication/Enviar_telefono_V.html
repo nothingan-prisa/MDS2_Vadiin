@@ -6,28 +6,21 @@
   <meta name="vaadin-version" content="8.0.0">
  </head>
  <body>
-  <vaadin-vertical-layout>
+  <vaadin-vertical-layout size-full>
    <vaadin-horizontal-layout width-full>
-    <vaadin7-table selectable width-full height="85px" :expand>
-     <table>
-      <colgroup>
-       <col property-id="fecha">
-       <col property-id="importe">
-       <col property-id="estado">
-       <col property-id="refencia">
-       <col property-id="detalle (ZIP)">
-      </colgroup>
-      <tbody>
-       <tr item-id="1">
-        <td>###</td>
-        <td>###</td>
-        <td>###</td>
-        <td>###</td>
-        <td>###</td>
-       </tr>
-      </tbody>
-     </table>
-    </vaadin7-table>
+    <vaadin-label plain-text>
+      Nombre 
+    </vaadin-label>
+    <vaadin-text-field width-full :expand></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout width-full>
+    <vaadin-label plain-text>
+      Telefono 
+    </vaadin-label>
+    <vaadin-text-field width-full :expand></vaadin-text-field>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout :right>
+    <vaadin-button icon="fonticon://Vaadin-Icons/e7fb" plain-text></vaadin-button>
    </vaadin-horizontal-layout>
   </vaadin-vertical-layout>
  </body>
