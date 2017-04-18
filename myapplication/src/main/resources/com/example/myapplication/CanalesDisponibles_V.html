@@ -6,19 +6,10 @@
   <meta name="vaadin-version" content="8.0.0">
  </head>
  <body>
-  <vaadin-vertical-layout size-full>
-   <vaadin-label width-full plain-text>
-     Fibra + Movil 
-   </vaadin-label>
-   <vaadin-vertical-layout size-full :expand></vaadin-vertical-layout>
-   <vaadin-horizontal-layout :right>
-    <vaadin-button plain-text>
-      Cancelar 
-    </vaadin-button>
-    <vaadin-button plain-text>
-      Solicitar Cambios 
-    </vaadin-button>
-   </vaadin-horizontal-layout>
-  </vaadin-vertical-layout>
+  <vaadin-css-layout size-full>
+   <vaadin-css-layout style-name="padding-right padding-bottom padding-left" size-full>
+    <vaadin-css-layout style-name="content-section padding" width-full height="600px"></vaadin-css-layout>
+   </vaadin-css-layout>
+  </vaadin-css-layout>
  </body>
 </html>

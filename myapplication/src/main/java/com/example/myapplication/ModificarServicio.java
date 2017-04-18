@@ -1,18 +1,24 @@
+package com.example.myapplication;
+
 public class ModificarServicio {
-	private Label _titulo;
-	private Label _fijoL;
-	private TextField_disable_ _fijoTF;
-	private Label _movilL;
-	private TextField_disable_ _movilTF;
-	private Label _fibraL;
-	private TextField_disable_ _fibraTF;
-	private Label _tVL;
-	private TextField_disable_ _tVTF;
-	private Label _asignarCanales;
-	private Label _terminalL;
-	private Droplist _terminalDL;
-	private Button _añadirTerminal;
-	public ModificarCliente_ _unnamed_ModificarCliente__;
-	public ZonaCanales _unnamed_ZonaCanales_;
-	public AñadirTerminal _unnamed_AñadirTerminal_;
+//	private Label _titulo;
+//	private Label _fijoL;
+//	private TextField_disable_ _fijoTF;
+//	private Label _movilL;
+//	private TextField_disable_ _movilTF;
+//	private Label _fibraL;
+//	private TextField_disable_ _fibraTF;
+//	private Label _tVL;
+//	private TextField_disable_ _tVTF;
+//	private Label _asignarCanales;
+//	private Label _terminalL;
+//	private Droplist _terminalDL;
+//	private Button _aï¿½adirTerminal;
+//	public ModificarCliente_ _unnamed_ModificarCliente__;
+//	public ZonaCanales _unnamed_ZonaCanales_;
+//	public Aï¿½adirTerminal _unnamed_Aï¿½adirTerminal_;
+	
+	public ModificarServicio(String s){
+		
+	}
 }
