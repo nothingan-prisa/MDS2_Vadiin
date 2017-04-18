@@ -1,8 +1,6 @@
 package com.example.myapplication;
 
-public class Cliente extends Cliente_V {
-	
-	private ZonaComun zc;
+public class Cliente extends ZonaComun {
 	
 	public Cliente() {
 		inicializar();
@@ -10,7 +8,7 @@ public class Cliente extends Cliente_V {
 
 	private void inicializar() {
 		
-		zc.zonaCliente();
+		zonaCliente();
 		
 	}
 
