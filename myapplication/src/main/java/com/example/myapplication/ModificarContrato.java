@@ -1,3 +1,5 @@
+package com.example.myapplication;
+
 public class ModificarContrato {
 	private Label _fijoL;
 	private Droplist _fijoDL;
