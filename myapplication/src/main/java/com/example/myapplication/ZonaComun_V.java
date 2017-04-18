@@ -24,8 +24,10 @@ public class ZonaComun_V extends Panel {
 	protected VerticalLayout verticalL;
 	protected HorizontalLayout head_iluminati;
 	protected CssLayout cssL;
+	protected VerticalLayout contenido;
 	protected Label viewTitle;
 	protected CssLayout content;
+	protected CssLayout iconosF;
 
 	public ZonaComun_V() {
 		Design.read(this);

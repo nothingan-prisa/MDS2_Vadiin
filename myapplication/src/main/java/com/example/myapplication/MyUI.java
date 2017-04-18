@@ -26,7 +26,11 @@ public class MyUI extends UI {
     protected void init(VaadinRequest vaadinRequest) {
         final VerticalLayout layout = new VerticalLayout();
 
-        Cliente c = new Cliente();
+        Cibernauta c = new Cibernauta();
+        //Cliente c = new Cliente();
+        //Comercial c = new Comercial();
+        //Administrador c = new Administrador();
+        
         
       setContent(c);
 

@@ -12610,6 +12610,32 @@ div.v-layout.v-horizontal.v-widget {
 	color: orange;
 }
 
+.mytheme .mystyle {
+	background: black !important;
+}
+
+.mytheme .margenesO {
+	margin-left: 13%;
+}
+
+.mytheme .botonesOfertas {
+	background: orange !important;
+	color: black;
+	border: 0;
+	margin-top: 3em;
+	margin-left: 2em;
+	margin-right: 2em;
+	height: 100px;
+	width: 100px;
+	border-radius: 25px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.mytheme #iconos {
+	margin-left: 12%;
+}
+
 .mytheme #Barra_Menu {
 	background-color: white;
 	border-radius: 15px;
