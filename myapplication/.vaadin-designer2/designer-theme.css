@@ -12612,6 +12612,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .mytheme .mystyle {
 	background: black !important;
+	border: 3px;
+	border-style: solid;
+	border-color: orange;
+	border-radius: 25px;
 }
 
 .mytheme .margenesO {
