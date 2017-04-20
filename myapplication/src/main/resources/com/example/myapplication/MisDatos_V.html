@@ -2,26 +2,23 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
   <meta name="vaadin-version" content="8.0.0">
  </head>
  <body>
-  <vaadin-css-layout size-full>
-   <vaadin-css-layout style-name="padding-right padding-bottom padding-left" size-full>
-    <vaadin-css-layout style-name="content-section padding" width-full height="600px">
-     <vaadin-vertical-layout>
-      <vaadin-menu-bar>
-        <menu>
-         Datos 
-       </menu>
-       <menu>
-         Modificar Datos
-       </menu>
-      </vaadin-menu-bar>
-      <vaadin-text-area size-full></vaadin-text-area>
-     </vaadin-vertical-layout>
-    </vaadin-css-layout>
-   </vaadin-css-layout>
+  <vaadin-css-layout height-full>
+   <vaadin-vertical-layout>
+    <vaadin-horizontal-layout _id="menuInterno">
+     <vaadin-button plain-text _id="b1">
+       Button 
+     </vaadin-button>
+     <vaadin-button plain-text _id="b2">
+       Button 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout></vaadin-horizontal-layout>
+    <vaadin-text-area width="600px" height-full></vaadin-text-area>
+   </vaadin-vertical-layout>
   </vaadin-css-layout>
  </body>
 </html>
