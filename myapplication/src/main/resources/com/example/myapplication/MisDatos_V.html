@@ -7,17 +7,35 @@
  </head>
  <body>
   <vaadin-css-layout height-full>
-   <vaadin-vertical-layout>
-    <vaadin-horizontal-layout _id="menuInterno">
-     <vaadin-button plain-text _id="b1">
-       Button 
-     </vaadin-button>
-     <vaadin-button plain-text _id="b2">
-       Button 
-     </vaadin-button>
-    </vaadin-horizontal-layout>
-    <vaadin-horizontal-layout></vaadin-horizontal-layout>
-    <vaadin-text-area width="600px" height-full></vaadin-text-area>
+   <vaadin-vertical-layout spacing="false" margin="false">
+    <vaadin-horizontal-layout width="12px" height="0px" _id="menuInterno"></vaadin-horizontal-layout>
+    <vaadin-tab-sheet responsive width="930px" height="363px" _id="menuMisDatos">
+     <tab caption="Datos" selected>
+      <vaadin-vertical-layout size-auto>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+       <vaadin-label plain-text>
+         Label 
+       </vaadin-label>
+      </vaadin-vertical-layout>
+     </tab>
+     <tab caption="Modificar Datos">
+      <vaadin-vertical-layout size-auto></vaadin-vertical-layout>
+     </tab>
+    </vaadin-tab-sheet>
    </vaadin-vertical-layout>
   </vaadin-css-layout>
  </body>

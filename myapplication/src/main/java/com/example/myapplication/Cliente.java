@@ -4,6 +4,7 @@ public class Cliente extends ZonaComun {
 	
 	MisContratos mc = new MisContratos();
 	MisDatos md = new MisDatos();
+	MisIncidencias mi = new MisIncidencias();
 	
 	public Cliente() {
 		inicializar();
@@ -14,6 +15,7 @@ public class Cliente extends ZonaComun {
 		zonaCliente();
 		//iconosF.addComponent(mc);
 		iconosF.addComponent(md);
+		//iconosF.addComponent(mi);
 		
 	}
 
