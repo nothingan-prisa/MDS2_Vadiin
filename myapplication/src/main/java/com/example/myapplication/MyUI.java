@@ -27,9 +27,9 @@ public class MyUI extends UI {
         final VerticalLayout layout = new VerticalLayout();
 
         //Cibernauta c = new Cibernauta();
-        Cliente c = new Cliente();
+        //Cliente c = new Cliente();
         //Comercial c = new Comercial();
-        //Administrador c = new Administrador();
+        Administrador c = new Administrador();
         
         
       setContent(c);

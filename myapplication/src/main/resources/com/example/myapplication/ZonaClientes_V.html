@@ -2,99 +2,22 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
   <meta name="vaadin-version" content="8.0.0">
  </head>
  <body>
   <vaadin-css-layout size-full>
-   <vaadin-css-layout style-name="padding-right padding-bottom padding-left" size-full>
-    <vaadin-css-layout style-name="content-section padding" size-full>
-     <vaadin-vertical-layout size-full>
-      <vaadin-horizontal-layout>
-       <vaadin-text-field></vaadin-text-field>
-       <vaadin-button plain-text>
-         Button 
-       </vaadin-button>
-      </vaadin-horizontal-layout>
-      <vaadin7-table selectable size-full :expand>
-       <table>
-        <colgroup>
-         <col property-id="DNI">
-         <col property-id="Nombre">
-         <col property-id="Fecha Alta">
-         <col property-id="email">
-         <col property-id="">
-        </colgroup>
-        <tbody>
-         <tr item-id="1">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="2">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="3">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="4">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="5">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="6">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="7">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="8">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr item-id="9">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-         </tr>
-        </tbody>
-       </table>
-      </vaadin7-table>
-     </vaadin-vertical-layout>
-    </vaadin-css-layout>
-   </vaadin-css-layout>
+   <vaadin-vertical-layout size-full>
+    <vaadin-horizontal-layout>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e805" style-name="borderless icon-align-right icon-only" plain-text></vaadin-button>
+     <vaadin-text-field style-name="no-margin spinner v-window-top-toolbar"></vaadin-text-field>
+     <vaadin-vertical-layout size-auto></vaadin-vertical-layout>
+     <vaadin-vertical-layout size-auto></vaadin-vertical-layout>
+     <vaadin-button plain-text _id="botonnuevo">
+       Nuevo Cliente 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
   </vaadin-css-layout>
  </body>
 </html>

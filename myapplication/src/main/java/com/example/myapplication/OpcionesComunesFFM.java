@@ -1,4 +1,7 @@
+package com.example.myapplication;
+
 public class OpcionesComunesFFM {
+	/*
 	private Label _ofertaL;
 	private DropList _ofertaDL;
 	private Label _nombreL;
@@ -13,10 +16,11 @@ public class OpcionesComunesFFM {
 	private Button _modificarCaracB;
 	private Button _guardarB;
 	private Button _eliminarB;
-	private Button _añadirOfertaB;
+	private Button _aï¿½adirOfertaB;
 	public ServFijo _unnamed_ServFijo_;
 	public ServMovil _unnamed_ServMovil_;
 	public ServFibra _unnamed_ServFibra_;
 	public NuevaOfertaFFM _unnamed_NuevaOfertaFFM_;
 	public EliminarServicio _unnamed_EliminarServicio_;
+	*/
 }

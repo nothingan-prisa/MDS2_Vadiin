@@ -1,6 +1,6 @@
 package com.example.myapplication;
 
-public class MisFacturas {
+public class MisFacturas extends MisFacturas_V {
 //	private Button _ultima;
 //	private Button _historico;
 //	private Button _detalle;

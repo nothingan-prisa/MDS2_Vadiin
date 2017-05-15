@@ -1,9 +1,13 @@
 package com.example.myapplication;
 
-public class DatosPersonales {
-//	private Label _tituluL;
-//	private Label _infoL;
-//	public MisDatos _unnamed_misDatos_;
-//	public ZonaMenuComercial _unnamed_ZonaMenuComercial_;
+public class DatosPersonales extends DatosPersonales_V {
+	
+	public DatosPersonales() {
+		inicializar();
+	}
+
+	private void inicializar() {
+	
+	}
 
 }

@@ -1,4 +1,7 @@
+package com.example.myapplication;
+
 public class ServiciosAdmin {
+	/*
 	private Button _fijoB;
 	private Button _movilB;
 	private Button _fibraB;
@@ -10,4 +13,5 @@ public class ServiciosAdmin {
 	public ServFibra _unnamed_ServFibra_;
 	public ServTV _unnamed_ServTV_;
 	public ServCombis _unnamed_ServCombis_;
+	*/
 }

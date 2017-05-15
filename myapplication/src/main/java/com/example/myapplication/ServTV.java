@@ -1,7 +1,11 @@
+package com.example.myapplication;
+
 public class ServTV extends OpcionesComunesFFM {
-	private Button _añadirCanalB;
+	/*
+	private Button _aï¿½adirCanalB;
 	public ServiciosAdmin _unnamed_ServiciosAdmin_;
 	public ZonaCanales _unnamed_ZonaCanales_;
-	public AñadirCanal _unnamed_AñadirCanal_;
+	public Aï¿½adirCanal _unnamed_Aï¿½adirCanal_;
 	public NuevaOfertaTV _unnamed_NuevaOfertaTV_;
+	*/
 }
